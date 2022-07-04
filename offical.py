@@ -13,7 +13,7 @@ send_headers = {
 # regex_blog = r"<a href=\"(.*)\" target(.*)>[\s]+<div class=\"column_article_title\">[\s]+<(.*)>[\s]+<(.*)>[\s]+(.*)[\s]+"
 
 regex_category = r"<a href=\"(.*?)\" target=\"_blank\" data-report-click=\"{(.*?) <span title=\"(.*?)\"(.*?)</span> <!----></a> <(.*?)>(.*?)篇"
-regex_blog = r"<a href=\"(.*?)\"(.*)[\s]+<div class=\"column_article_title\">[\s]+<(.*)>[\s]+<(.*)>[\s]+(.*)[\s]+"
+regex_blog = r"<a href=\"(.*)\" target(.*)[\s]+(.*)[\s]+<h2 class=\"title\">[\s]+(.*)"
 
 csdn_url = f'https://blog.csdn.net/Marchtwentytwo'
 
